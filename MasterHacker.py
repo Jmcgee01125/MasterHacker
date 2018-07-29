@@ -1,8 +1,7 @@
 import random
 
-words = ["the blockchain", "AI", "machine learning", "neural net", "DNS server", "an API", "coding and algorithms"]
-
 while True:
+    words = ["the blockchain", "AI", "machine learning", "neural net", "DNS server", "an API", "coding and algorithms"]
     choice = input("Would you like predetermined words? (Y/N): ")
     if choice.lower() == "n" or choice.lower() == "no" or choice.lower() == "y" or choice.lower() == "yes":
         random.shuffle(words)
